@@ -2,7 +2,7 @@
 # Linux: 
 ## 1. What does ls -alt do? 
 
-## ** ** Shows hidden files and folders that are listed based on newest to oldest 
+## **Shows hidden files and folders that are listed based on newest to oldest**
 
 ## 2. What command would you use to list all files starting with 'Run' and ending with '.txt' in a directory and all of its subdirectories? 
 
