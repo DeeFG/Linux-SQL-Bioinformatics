@@ -34,4 +34,4 @@
 ## FROM Invoices 
 ## HAVING COUNT(OrderId) >= 1 
 
-* There is no way to arrange the average data that is searched. The data is being averaged based off of multiple totals of each user. The data it need to group the user IDs together using a  **GROUP BY UserId**  so the averages are associated with each user.
+* There is no way to arrange the average data that is searched. The data is being averaged based off of multiple totals of each user. The data needs to group the user IDs together using a  **GROUP BY UserId**  so the averages are associated with each user.
