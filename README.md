@@ -27,18 +27,17 @@
 
 
 # SQL: 
-## 1. For the following SQL statement, what is wrong with it and how would you fix it: -- 
-## Question: 
+## 1. For the following SQL statement, what is wrong with it and how would you fix it:-- Question: 
+#### SELECT UserId, AVG(Total) AS AvgOrderTotal 
+#### FROM Invoices 
+#### HAVING COUNT(OrderId) >= 1 
 
-## SELECT UserId, AVG(Total) AS AvgOrderTotal 
-## FROM Invoices 
-## HAVING COUNT(OrderId) >= 1 
 
 * There is no way to arrange the average data that is searched. The data is being averaged based off of multiple totals of each user. The data needs to group the user IDs together using a  **GROUP BY UserId**  so the averages are associated with each user.
 
 # Bioinformatics
 * I  have no previos knowledge in  bioinformatics  and used  http://hplgit.github.io/bioinf-py/doc/pub/html/main_bioinf.html as a learning tool to complete the bioinformatics portion to the best of my ability. 
 
-* please refer to the test.py file to see python code i thought correlated with the questions asked. 
+* Please refer to the test.py file to see python code i thought correlated with the questions asked. 
 
 # Thank you for your time  and the oppurtunity 

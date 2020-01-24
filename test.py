@@ -1,8 +1,6 @@
 
 # Bioinformatics: 
 #Recursively find all FASTQ files in a directory and report  each file name and the percent of sequences in that file that are greater than 30 nucleotides long. 
-
-
 def read_dnafile_v2(filename):
     dna = ''
     for line in open(filename, 'r'):
@@ -18,7 +16,6 @@ dna_freq = get_base_frequencies(dna)
 
 
 #Given a FASTA file with DNA sequences, find 10 most frequent sequences and return the sequence and their counts in the file. 
-
 
 dna = 'ACCAGAGT'
 frequencies = find_frequencies(dna)
